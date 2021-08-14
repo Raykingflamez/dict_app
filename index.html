@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h1">A Simple Dictionary App</h1>
+      <div class="input">
+        <input
+          onkeypress="handle(event)"
+          type="text"
+          class="search-field"
+          placeholder="Type and press enter"
+        />
+      </div>
+      <div class="result">
+        <h1 class="word"></h1>
+        <p class="phonetics"></p>
+        <p class="partOfSpeech"></p>
+        <audio
+          src=""
+          controls
+        ></audio>
+        <p class="wordmeaning"></p>
+        <p class="word-definition"></p>
+        <p class="wordmeaning"></p>
+        <div class="synonyms"></div>
+      </div>
+       <p></p>
+      <p>Powered By <a href="https://dictionaryapi.dev" target="_blank">DictionaryApi</a></p>
+    </div>
+
+    <footer>
+        
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
